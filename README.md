@@ -1,5 +1,7 @@
 # ImComparePdfs
-ImageMagick Compare PDFs is designed to compare PDF's as images. All code in F# and anyone is free to suggest changes.
+ImageMagick Compare PDFs is designed to compare PDF's as images.
+
+There is a .Net command line interface included, which uses ImComparePdfs F# library.
 
 PDF's are compared page by page using Magick.Net ( https://magick.codeplex.com/ )
 One can compare any number of PDF's simultaneously or just two.
@@ -16,3 +18,9 @@ The functions available are:
       AllDifferencesBetween // Two files. Find all differences
       
  All functions will return a list<FileInfo> list of image files, which describe the difference on particular page. 
+
+
+
+All code in F# and anyone is free to suggest changes.
+
+- Paavo
