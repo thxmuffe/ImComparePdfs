@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ImComparePdfs", "ImComparePdfs.fsproj", "{C0F9672E-AAC1-48CD-84B6-3F76FB5594F9}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ImComparePdfs", "ImComparePdfs\ImComparePdfs.fsproj", "{C0F9672E-AAC1-48CD-84B6-3F76FB5594F9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "..\TestComparePdf\Tests.fsproj", "{19BEBFFC-FB2B-498E-AEFA-7D75D2EBB914}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "TestComparePdf\Tests.fsproj", "{19BEBFFC-FB2B-498E-AEFA-7D75D2EBB914}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleVersion", "..\ConsoleVersion\ConsoleVersion.fsproj", "{04EB28F1-9BF6-43C3-8F82-A6CAB93E0850}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleVersion", "ConsoleVersion\ConsoleVersion.fsproj", "{04EB28F1-9BF6-43C3-8F82-A6CAB93E0850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
