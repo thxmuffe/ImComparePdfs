@@ -8,14 +8,20 @@ One can compare any number of PDF's simultaneously or just two.
 
 The functions available are:
 
-  Takes a list of PDF files, list<FileInfo>
-      FirstDifference   // Sequential search. Always returns first difference.
-      AnyDifference     // Parallel search. Might not return first difference.
-      AllDifferences    // Parallel search. Looks for all differences
+Takes a list of PDF files, list<FileInfo>:
 
-  Takes a 2 FileInfo objects (Compares two files)
-      DifferenceBetween     // Two files. Find first difference
-      AllDifferencesBetween // Two files. Find all differences
+FirstDifference // Sequential search. Always returns first difference.
+
+AnyDifference     // Parallel search. Might not return first difference.
+
+AllDifferences    // Parallel search. Looks for all differences
+
+
+Takes a 2 FileInfo objects (Compares two files)
+
+DifferenceBetween     // Two files. Find first difference
+
+AllDifferencesBetween // Two files. Find all differences
       
  All functions will return a list<FileInfo> list of image files, which describe the difference on particular page. 
 
